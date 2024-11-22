@@ -1,8 +1,8 @@
 {
   "hipoteca": {
-    "capital": 1000,
-    "interes": 5,
-    "plazos": 24
+    "capital": 1000.5,
+    "interes": 5.5,
+    "plazos": 24.5
   },
   "cuotas": [
     {
@@ -243,7 +243,7 @@
       "intereses": 0.18,
       "capitalAmortizado": 43.71,
       "cuota": 43.89,
-      "capitalPendiente": 0
+      "capitalPendiente": 0.0
     }
   ]
 }

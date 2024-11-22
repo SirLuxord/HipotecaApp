@@ -81,7 +81,7 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <sourceDirectory>${basedir}/schemas/openlibrary</sourceDirectory>
+              <sourceDirectory>${basedir}/schemas/hipoteca</sourceDirectory>
               <targetPackage>dad.hipoteca.api</targetPackage>
             </configuration>
           </execution>
