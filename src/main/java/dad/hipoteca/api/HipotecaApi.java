@@ -38,8 +38,8 @@ public class HipotecaApi {
     }
 
 
-    public SearchResultHipoteca getBooks(Double capital, Double interes, Double años) throws IOException {
-        Response<SearchResultHipoteca> result = service.search(capital,interes,años).execute();
+    public ResultHipoteca getCuotas(Double capital, Double interes, Double años) throws IOException {
+        Response<ResultHipoteca> result = service.search(capital,interes,años).execute();
         if (result.isSuccessful()){
             return result.body();
         }
