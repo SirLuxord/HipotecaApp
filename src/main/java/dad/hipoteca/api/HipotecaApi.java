@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class HipotecaApi {
-    private static final String BASE_URL = "http://localhost:3000/";
+    private static final String BASE_URL = "https://calculohipoteca-production.up.railway.app/";
 
     private final HipotecaInterfaz service;
 
